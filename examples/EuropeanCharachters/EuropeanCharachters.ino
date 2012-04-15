@@ -4,8 +4,7 @@
  
  Demonstrates how to pass European charachters to the LED display.
  
- The circuit:
- * LEDs from pins 2 through 7 to ground
+ See character map in CharacterCodes.txt
  
  created 2012
  by Ellen Sundh
@@ -34,7 +33,7 @@ void setup()
 void loop()
 {
   // Testing with Swedish characters ÅÄÖåäö
-  String euroChars = "Testing with Swedish characters <U45><U44><U76><U65><U64><U76>";
+  String euroChars = "Testing with Swedish characters <U45><U44><U76><U65><U64><U61>";
   messageBoard.displayMessage(PAGE_A,euroChars); // Page id PAGE_A - PAGE_Z and message of your choice
   delay(10000);
   
