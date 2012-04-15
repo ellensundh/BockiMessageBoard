@@ -1,4 +1,22 @@
 
+
+/*
+ DisplayMessage
+ 
+ Demonstrates how to send string to be displayed on the LED Message Board.
+ 
+ See character map in CharacterCodes.txt
+ 
+ created 2012
+ by Ellen Sundh
+ modified 12 April 2012
+ by Ellen Sundh 
+
+BockiMessageBoard on GitHub
+https://github.com/ellensundh/BockiMessageBoard
+
+*/
+
 #include <BockiMessageBoard.h>
 
 BockiMessageBoard messageBoard = BockiMessageBoard(0); // Pass in ID of message board
