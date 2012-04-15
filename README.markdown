@@ -1,7 +1,7 @@
 BockiMessageBoard
 -----------------
 
-BockiMessageBoard is an open source library for Arduino to communicate with standard LED displays from Armplus. 
+BockiMessageBoard is an open source library for Arduino to communicate with standard LED displays from Armplus. Supporting Europan charachters, printing to several pages and setting animation of text.
 
 Supported Amplus LED Display board
 http://www.amplus.com.hk/LED_%20AM03127-H13.htm
@@ -12,6 +12,8 @@ http://arduino.sundh.com/2012/01/arduino-ethernet-shield-hooked-up-to-led-messag
 
 Installing
 ----------
+Download the GitHub files and add them into your Arduino sketch folder, in the folder "libraries".
+
 See the 'examples' subdirectory for usage examples.
 
 Upcoming
