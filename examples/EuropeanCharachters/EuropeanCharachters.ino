@@ -1,4 +1,22 @@
 
+/*
+  EurpoeanCharacters
+ 
+ Demonstrates how to pass European charachters to the LED display.
+ 
+ The circuit:
+ * LEDs from pins 2 through 7 to ground
+ 
+ created 2012
+ by Ellen Sundh
+ modified 12 April 2012
+ by Ellen Sundh 
+
+BockiMessageBoard on GitHub
+https://github.com/ellensundh/BockiMessageBoard
+
+*/
+ 
 #include <BockiMessageBoard.h>
 
 BockiMessageBoard messageBoard = BockiMessageBoard(0); // Pass in ID of message board

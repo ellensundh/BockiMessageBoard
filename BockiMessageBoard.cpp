@@ -27,7 +27,6 @@ void BockiMessageBoard::configure(int displayTime, String displayModeIn, String 
 { 
   
   displayTime = int(fmin(abs(displayTime),25));
-  Serial.print(displayTime);
   dTime = "W" + String(ports[round(displayTime)]);
 
   dModeIn = displayModeIn;
