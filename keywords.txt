@@ -1,3 +1,3 @@
 BockiAscii	KEYWORD1
 displayMessage	KEYWORD2
-configure KEYWORD2
+configure	KEYWORD2
